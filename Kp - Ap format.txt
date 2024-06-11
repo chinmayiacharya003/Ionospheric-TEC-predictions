@@ -1,0 +1,9 @@
+Kp, Sigma Kp, ap and Ap indices on each day are shown in one record.
+
+Column	Contents (Format)
+1-8	Date in format YYYYMMDD, (I4.4,2I2.2)
+9	Space (1X)
+10-25	8 Kp values [0, 0+, 1- ..... 9-, 9] (8A2)
+26-28	SKp (A3)
+29-52	8 ap values [0, 2, 3, 4, ...... ] (8I3)
+53-55	Ap (I3)
