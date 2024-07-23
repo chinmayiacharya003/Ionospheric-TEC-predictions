@@ -1,11 +1,11 @@
 import requests 
 import datetime
 '''
-Kp index: ID 27
-R (Sunspot No.): ID 51
-Dst-index (nT): ID 32
-ap index (nT): ID 26
-f10.7 index: ID 59
+Kp index: ID 38
+R (Sunspot No.): ID 39
+Dst-index (nT): ID 40
+ap index (nT): ID 49
+f10.7 index: ID 50
 '''
 
 '''
@@ -24,20 +24,22 @@ For wget command:
 
 # Get today's date in YYYYMMDD format
 today = datetime.datetime.now().strftime('%Y%m%d')
+yesterday = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime('%Y%m%d')
 
 # Set the URL and parameters
 url = "https://omniweb.gsfc.nasa.gov/cgi/nx1.cgi"
 params = {
     "activity": "retrieve",
-    "res": "day",
+    "res": "hour",
     "spacecraft": "omni2",
-    "start_date": today,
-    "end_date": today,
-    "vars": [27, 51, 32, 26, 59],
+    "start_date": '20240709',
+    "end_date": '20240709',
+    "vars": [38, 39, 40, 49, 50],
     "scale": "Linear",
     "view": 0,
     "table": 0
 }
+
 
 # Send the POST request
 response = requests.post(url, data=params)
