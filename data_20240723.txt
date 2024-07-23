@@ -1,0 +1,51 @@
+<HTML>
+<HEAD><TITLE>OMNIWeb Results</TITLE></HEAD>
+<BODY>
+<center><font size=5 color=red>OMNIWeb Plus Browser Results </font></center><br>
+<B>Listing for omni2 data from 20240709 to 20240709</B><hr><pre>Selected parameters:
+ 1 Kp index
+ 2 R (Sunspot No.)
+ 3 Dst-index, nT
+ 4 ap_index, nT
+ 5 f10.7_index
+
+YEAR DOY HR  1  2     3   4     5 
+2024 191  0 20 999     7   7 184.2
+2024 191  1 20 999     9   7 184.2
+2024 191  2 20 999    10   7 184.2
+2024 191  3 17 999     7   6 184.2
+2024 191  4 17 999     4   6 184.2
+2024 191  5 17 999     0   6 184.2
+2024 191  6  7 999    -2   3 184.2
+2024 191  7  7 999     0   3 184.2
+2024 191  8  7 999     3   3 184.2
+2024 191  9 17 999     3   6 184.2
+2024 191 10 17 999     2   6 184.2
+2024 191 11 17 999     3   6 184.2
+2024 191 12 20 999     5   7 184.2
+2024 191 13 20 999     3   7 184.2
+2024 191 14 20 999     3   7 184.2
+2024 191 15 10 999     5   4 184.2
+2024 191 16 10 999     7   4 184.2
+2024 191 17 10 999     8   4 184.2
+2024 191 18 13 999     9   5 184.2
+2024 191 19 13 999     6   5 184.2
+2024 191 20 13 999     5   5 184.2
+2024 191 21 20 999     7   7 184.2
+2024 191 22 20 999     8   7 184.2
+2024 191 23 20 999     3   7 184.2
+</pre><hr><HR>
+<ADDRESS>
+<table>
+<tr>
+<td>
+If you have any questions about OMNIWeb Plus Interface,contact:<br>
+<A HREF="mailto:Natalia.E.Papitashvili@nasa.gov">
+Dr. Natalia Papitashvili</A>, Code 672, Greenbelt, MD 20771.
+</ADDRESS>
+</td></tr>
+</table>
+<HR>
+<H6>Last Update: July 23, 2024, NEP.</H6>
+</BODY>
+</HTML>
